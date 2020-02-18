@@ -1,9 +1,9 @@
 
 <ion-content >
 
-<ion-grid class="bg ion-justify-content-center">
+<ion-grid class="bg">
   <ion-row>
-    <ion-col size="6">
+    <ion-col size="8">
       <div>
         
         <ion-row>
@@ -29,22 +29,13 @@
               <h1>3. Aponte o celular para essa tela para capturar o código</h1>
             </div>
           </ion-col>
-
-          <ion-col size="12">
-            <div>
-              <h1>1. Abra o LinkPay no seu celular</h1>
-            </div>
-          </ion-col>
-        
         </ion-row>
-
-
       </div>
     </ion-col>
-    <ion-col size="6">
+    <ion-col class="code" size="4">
       <div>
         <div>
-          <qr-code [value]="'All QR Code data goes here!'" [size]="150"></qr-code>
+          <qr-code [value]="'All QR Code data goes here!'" [size]="300" [padding]="25"></qr-code>
         </div>
       </div>
     </ion-col>
