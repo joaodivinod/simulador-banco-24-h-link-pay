@@ -1,16 +1,49 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
-.bank{
-  padding: 25px;
-  height: 20%;
-  -webkit-box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
-box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
+.modelo img{
+    width: 100%;
 }
-.caixa{
-  background-color: #fff;
+.option{
+  background-color: #f62c3a;
+  color:#fff;
+  margin: 30px;
+  padding: 15px;
+  font-size: 25pt;
+  max-width: 100px;
+  height: 90px;
+  font-weight: bold;
 }
-.bradesco{
-  background-color: #fff;
+.second-right{
+  margin-left: -15px;
+}
+.ion-icon{
+  font-weight: bold;
+}
+.color-bar img{
+  position: absolute;
+  margin-top:-50px;
+}
+.contato{
+  text-align: center;
+}
+.contato h1{
+  padding: 5px;
+  background-color:#f62c3a;
+  color:#fff;
+  font-size: 32pt;
+  width: 800px;
+  margin: auto;
+  margin-top: 25px;
+}
+.contato h2{
+  padding: 5px;
+  background-color:#9e0d16;
+  color:#fff;
+  font-size: 30pt;
+  width: 500px;
+  margin: auto;
+}
+.contato h3{
+  color: gray;
 }
