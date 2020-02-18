@@ -1,3 +1,16 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+.bank{
+  padding: 25px;
+  height: 20%;
+  -webkit-box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
+box-shadow: 1px -3px 9px 2px rgba(0,0,0,0.75);
+}
+.caixa{
+  background-color: #fff;
+}
+.bradesco{
+  background-color: #fff;
+}
