@@ -1,3 +1,6 @@
+ion-content{
+     background-color: #2e4eff;
+}
 .bg{
     background: #2e4eff;
     padding: 17%;
@@ -15,9 +18,50 @@ ion-row{
     color: #fff;
 }
 .on-grid{
-    // padding: 20%;
     margin: auto;
 }
 .code {
     
+}
+.sacar{
+     background-color: #2e4eff;
+     
+    }
+.conter{
+    max-width: 900px;
+    margin: auto;
+}
+.valores{
+    margin-bottom: 70px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.title{
+    margin-top: 30px;;
+    font-size: 30pt;
+    padding-left: 5px;
+    font-weight: bold;
+    text-align: left;
+    border-left:#2e4eff 3px solid;
+    
+}
+.saldo{
+    text-align: right;
+    margin-top: 30px;;
+    font-size: 30pt;
+    padding-left: 5px;
+    font-weight: bold;
+   
+}
+.right{
+    text-align: right;
+}
+hr{
+    border-bottom: #fff 2px solid;
+    margin-bottom: 30px;
+}
+.top{
+    background-color: #1e31a0;
+    border-radius: 15px;
+    padding: 15px;
 }
