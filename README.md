@@ -1,6 +1,6 @@
 # Objetivo da nossa aplicação
 O nosso protótipo tem o objetivo de simular um terminal de uma banco 24 horas  
-# Como ele funciona
+# Como ela funciona
 Você pode acessar o nosso terminal através do seguinte link : https://linkpag-1b080.web.app/tabs/tab1
 
 Instale o APK do protótipo do aplicativo baixando ele pelo link : https://drive.google.com/file/d/1kK_4fRq3NSbSqS0r7nTfLxvlQeJy5edz/view?usp=sharing
