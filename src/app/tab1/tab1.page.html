@@ -1,12 +1,10 @@
-
-
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-no-padding">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Banco 24 horas</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-grid>
+  <ion-grid class="ion-no-padding">
 
     <ion-row>
 
@@ -22,58 +20,59 @@
 
         <div>
           <ion-row>
-          
-            <ion-col class="option" size="10">
-          
+
+            <ion-col class="option certa" size="10" (click)="callQrcode()">
+
               <div>
-                Começar Sem cartão <ion-icon name="chevron-forward-outline"></ion-icon><ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
+                Começar com LinkPay <ion-icon name="chevron-forward-outline"></ion-icon>
+                <ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
               </div>
-          
+
             </ion-col>
-          
-          <ion-col class="option" size="10" (click)="callQrcode()">
-            
-            <div> 
-              Começar com LinkPay <ion-icon name="chevron-forward-outline"></ion-icon><ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
-            </div>
-          
-          </ion-col>
-          <ion-col class="option" size="10">
-          
-            <div>
-              Saque Digital <ion-icon name="chevron-forward-outline"></ion-icon><ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
-            </div>
-          
-          </ion-col>
-          
+
+            <ion-col class="option" size="10">
+
+              <div>
+                Começar sem cartão <ion-icon name="chevron-forward-outline"></ion-icon>
+                <ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
+              </div>
+
+            </ion-col>
+            <ion-col class="option" size="10">
+
+              <div>
+                Saque Digital <ion-icon name="chevron-forward-outline"></ion-icon>
+                <ion-icon class="second-right" name="chevron-forward-outline"></ion-icon>
+              </div>
+
+            </ion-col>
+
           </ion-row>
         </div>
 
       </ion-col>
       <ion-col class="bank modelo" size="12">
-      
+
         <div class="color-bar">
-          <img  src="assets\img\color-bar.png" alt="">
+          <img src="assets\img\color-bar.png" alt="">
         </div>
-      
+
       </ion-col>
 
       <ion-col class="bank modelo" size="12">
-      
+
         <div class="contato">
           <h1>E fácil falar com o banco24Horas</h1>
           <h2>0800 56 24 00</h2>
           <h3>banco24horas.com.br</h3>
         </div>
-      
+
       </ion-col>
 
 
     </ion-row>
-    
+
   </ion-grid>
-  
-  
+
+
 </ion-content>
-
-

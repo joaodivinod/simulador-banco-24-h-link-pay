@@ -13,7 +13,11 @@ ion-content ion-toolbar {
   max-width: 100px;
   height: 90px;
   font-weight: bold;
+  &.certa {
+    background-color: #5F5FFF !important;
+  }
 }
+
 .second-right{
   margin-left: -15px;
 }

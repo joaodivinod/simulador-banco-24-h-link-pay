@@ -1,9 +1,10 @@
 ion-content{
-     background-color: #2e4eff;
+    --background: #2e4eff !important;
 }
+
 .bg{
     background: #2e4eff;
-    padding: 17%;
+    padding: 10% 17%;
     // background: linear-gradient(90deg, rgba(127,148,255,1) 0%, #2e4eff 79%);
 }
 .qr-code img{
@@ -20,9 +21,7 @@ ion-row{
 .on-grid{
     margin: auto;
 }
-.code {
-    
-}
+
 .sacar{
      background-color: #2e4eff;
      
@@ -38,7 +37,7 @@ ion-row{
 }
 .title{
     margin-top: 30px;;
-    font-size: 30pt;
+    font-size: 24pt;
     padding-left: 5px;
     font-weight: bold;
     text-align: left;
@@ -48,7 +47,7 @@ ion-row{
 .saldo{
     text-align: right;
     margin-top: 30px;;
-    font-size: 30pt;
+    font-size: 20pt;
     padding-left: 5px;
     font-weight: bold;
    
@@ -56,10 +55,12 @@ ion-row{
 .right{
     text-align: right;
 }
+
 hr{
     border-bottom: #fff 2px solid;
     margin-bottom: 30px;
 }
+
 .top{
     background-color: #1e31a0;
     border-radius: 15px;
